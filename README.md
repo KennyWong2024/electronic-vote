@@ -16,27 +16,26 @@ algunas decisiones de diseño.
 electronic-vote/
 ├── README.md
 ├── LICENSE 
-├── .env                                    # Variables de entorno para conexiones
+├── .env.example                            # Variables de entorno para conexiones, deben renombrarlo y setear variables
 │
 ├── docs/                                   # Documentación formal del proyecto
+│   ├── requerimiento_tecnico.pdf
 │   └── documento_proyecto.pdf
 │
 ├── assets/                                 # Logos, íconos, imágenes para diagramas o README
 │
 ├── diagrams/                               # Archivos draw.io con las arquitecturas conceptuales
-│   ├── arquitectura.drawio
-│   ├── arquitectura.png
-│   ├── base_lectura.drawio
-│   ├── base_escritura.drawio
-│   ├── analitica_medalion.drawio
-│   └── analitica_medalion.png
+│   ├── 01. Arquitectura del Sistema.drawio
+│   ├── 02. Diagrama ER Escritura.drawio
+│   ├── 03. Diagrama ER Lectura.drawio
+│   └── 04. Arquitectura Medalion Analitica.drawio
 │
-├── data/                                   # Archivos de datos originales
-│   ├── votantes/                           # Segmentados para optimizar carga
+├── data/                                   # Archivos de datos originales | No se incluyen datos, solo rutas compatibles con el sistema
+│   ├── votantes/
 │   │   ├── padron_chunk_1.csv
 │   │   ├── padron_chunk_2.csv
 │   │   └── ...
-│   └── poblados/                           # Uno solo, es liviano
+│   └── poblados/
 │       └── poblados_costa_rica.csv
 │
 ├── scripts/

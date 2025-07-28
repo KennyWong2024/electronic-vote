@@ -8,3 +8,4 @@ data/logs/*.csv
 data/poblados/*.csv
 data/votantes/*.csv
 data/votos/*.csv
+venv/
