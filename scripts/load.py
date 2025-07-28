@@ -44,8 +44,7 @@ def verificar_conexion():
 def mostrar_menu_principal():
     print("=== Menú Principal ===")
     print("1) Cargar datos")
-    print("2) Ejecutar pipeline")
-    print("3) Salir")
+    print("2) Salir")
 
 def mostrar_menu_carga():
     print("\n--- Cargar Datos ---")
@@ -90,10 +89,6 @@ def main():
                     print("Opción no válida. Intente de nuevo.")
 
         elif opcion == '2':
-            logging.info("Función de pipeline aún no implementada.")
-            print("Pipeline aún no disponible. Próximamente...")
-
-        elif opcion == '3':
             logging.info("Saliendo del programa.")
             sys.exit(0)
 
