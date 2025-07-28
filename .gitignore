@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+data/bitacora/*.csv
+data/logs/*.csv
+data/poblados/*.csv
+data/votantes/*.csv
+data/votos/*.csv
